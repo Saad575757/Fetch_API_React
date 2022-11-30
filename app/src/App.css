@@ -1,7 +1,52 @@
-.card{
-  height: 200px;
-  width: 356px;
-  background-color: lightblue;
-  
+body{
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+  margin-bottom: 50px;
+}
 
+.heading{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 40px;
+  color: white;
+}
+.card{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.card-style{
+  
+  margin-left: 100px;
+  margin-top: 60px;
+  height: 240px;
+  width: 300px;
+  color: antiquewhite;
+  background-color: #6a8f8985;
+  border-color: black;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.name{
+  padding-left: 20%;
+  font-size: 20px;
+  font-weight: bold;
+}
+.id{
+  padding-left: 20%;
+  
+  
+}
+.username{
+  padding-left: 20%;
+  
+}
+.email{
+  padding-left: 20%;
+  
+}
+.phone{
+  padding-left: 20%;
+  
 }
