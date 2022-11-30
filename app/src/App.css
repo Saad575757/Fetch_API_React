@@ -29,24 +29,24 @@ body{
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 .name{
-  padding-left: 20%;
+  padding-left: 15%;
   font-size: 20px;
   font-weight: bold;
 }
 .id{
-  padding-left: 20%;
+  padding-left: 15%;
   
   
 }
 .username{
-  padding-left: 20%;
+  padding-left: 15%;
   
 }
 .email{
-  padding-left: 20%;
+  padding-left: 15%;
   
 }
 .phone{
-  padding-left: 20%;
+  padding-left: 15%;
   
 }
