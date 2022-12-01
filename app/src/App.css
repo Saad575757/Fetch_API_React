@@ -27,6 +27,12 @@ body{
   border-color: black;
   border-radius: 10px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  cursor: pointer;
+  transition: 0.4s;
+}
+.card-style :hover{
+  box-shadow: 0 4px 8px 0 rgba(97, 79, 79, 0.22), 0 6px 20px 0 rgba(150, 120, 120, 0.119);
+  transform: scale(1.03,1.03);
 }
 .name{
   padding-left: 15%;
