@@ -26,8 +26,8 @@ const App=()=>{
       {
         user.map((currentelement)=>(
           <div className='card-style'>
-        <p className='name'>Name: {currentelement.name}</p>
-        <p className='id'>ID :{currentelement.id}</p>
+        <p className='name'> {currentelement.name}</p>
+        <p className='id'>ID: {currentelement.id}</p>
         <p className='username'>Username: {currentelement.username}</p>
         <p className='email'>Email: {currentelement.email}</p>
         <p className='phone'>Phone: {currentelement.phone}</p>
