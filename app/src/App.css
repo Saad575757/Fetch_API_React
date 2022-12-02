@@ -1,23 +1,24 @@
-body{
+body {
   background-image: linear-gradient(to right, #434343 0%, black 100%);
   margin-bottom: 50px;
 }
 
-.heading{
+.heading {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   font-size: 40px;
   color: white;
 }
-.card{
+
+.card {
   display: flex;
   flex-wrap: wrap;
 
 }
 
-.card-style{
-  
+.card-style {
+
   margin-left: 100px;
   margin-top: 60px;
   height: 240px;
@@ -26,33 +27,39 @@ body{
   background-color: #6a8f8985;
   border-color: black;
   border-radius: 10px;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   cursor: pointer;
-  
+
 }
-.card-style :hover{
+
+.card-style :hover {
   box-shadow: 0 4px 8px 0 rgba(97, 79, 79, 0.22), 0 6px 20px 0 rgba(150, 120, 120, 0.119);
-  transform: scale(1.03,1.03);
+  transform: scale(1.03, 1.03);
 }
-.name{
+
+.name {
   padding-left: 15%;
   font-size: 20px;
   font-weight: bold;
 }
-.id{
+
+.id {
   padding-left: 15%;
-  
-  
+
+
 }
-.username{
+
+.username {
   padding-left: 15%;
-  
+
 }
-.email{
+
+.email {
   padding-left: 15%;
-  
+
 }
-.phone{
+
+.phone {
   padding-left: 15%;
-  
+
 }
