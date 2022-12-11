@@ -10,7 +10,7 @@ const App = () => {
   const [user, setUser] = useState([]);
   const getUsers = async () => {
     const response = await fetch('https://jsonplaceholder.typicode.com/users');
-    // const data= await response.json();
+    // const data= await response.json();//repone
     // console.log(data);
     setUser(await response.json());
   }
