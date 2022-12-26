@@ -24,15 +24,16 @@ const App = () => {
       <div className='card'>
 
         {
-          user.map((currentelement) => (
+          user.map((currentelement) => {
+            const {name, id , username , email, phone}=currentelement;
             <div className='card-style'>
-              <p className='name'> {currentelement.name}</p>
-              <p className='id'>ID: {currentelement.id}</p>
-              <p className='username'>Username: {currentelement.username}</p>
-              <p className='email'>Email: {currentelement.email}</p>
-              <p className='phone'>Phone: {currentelement.phone}</p>
+              <p className='name'> {name}</p>
+              <p className='id'>ID: {id}</p>
+              <p className='username'>Username: {username}</p>
+              <p className='email'>Email: {email}</p>
+              <p className='phone'>Phone: {phone}</p>
             </div>
-          ))
+})
         }
       </div>
     </>
